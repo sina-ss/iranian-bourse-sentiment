@@ -1,0 +1,95 @@
+<svg viewBox="0 0 820 1400" xmlns="http://www.w3.org/2000/svg" role="img" font-family="Tahoma, 'Segoe UI', Arial, sans-serif">
+  <title>معماری روش‌شناختی پژوهش با مشخص‌شدن مراجع در هر لایه</title>
+  <desc>دیاگرام پنج‌لایه‌ای روش تحقیق به‌همراه برچسب‌های مرجع و کلید منابع.</desc>
+  <style>
+    .ln{font-size:13px; fill:#1f2937; direction:rtl; unicode-bidi:embed;}
+    .hd{font-weight:bold; font-size:16px; direction:rtl;}
+    .ref{font-weight:bold; fill:#c0392b;}
+    .star{font-size:15px; fill:#d12c2c;}
+    .key{font-size:12px; fill:#2b2b2b; direction:ltr;}
+    .title{font-weight:bold; font-size:19px; fill:#111; direction:rtl;}
+    .leg{font-size:13px; fill:#444; direction:rtl;}
+    .out{font-size:13px; fill:#333; direction:rtl;}
+  </style>
+
+  <rect x="0" y="0" width="820" height="1400" fill="#ffffff"/>
+
+  <text class="title" x="410" y="34" text-anchor="middle">معماری روش‌شناختی پژوهش: زنجیره داده، مدل، شاخص و اعتبارسنجی</text>
+  <text class="star" x="325" y="63" text-anchor="middle">★</text>
+  <text class="leg" x="315" y="64" text-anchor="start">= نقاط نوآوری پژوهش</text>
+
+  <!-- Layer 1 -->
+  <rect x="50" y="82" width="720" height="158" rx="10" fill="#eaf2fb" stroke="#3b82c4" stroke-width="1.5"/>
+  <text class="hd" x="410" y="110" text-anchor="middle" fill="#1f5fa6">لایه ۱ ـ داده و کیفیت</text>
+  <text class="ln" x="410" y="142" text-anchor="middle">گردآوری چندپلتفرمی: تلگرام مالی، تالار ره‌آورد۳۶۵، انجمن ایران‌سی‌آر<tspan class="ref"> [۱، ۹]</tspan></text>
+  <text class="ln" x="410" y="174" text-anchor="middle">نرمال‌سازی فارسی، حذف اسپم/ربات، نگاشت نماد/صنعت، هم‌ترازی زمانی</text>
+  <text class="star" x="74" y="214">★</text>
+  <text class="ln" x="410" y="212" text-anchor="middle">ماژول مستقل پروفایلینگ و پایش کیفیت داده (سنجش نویز پیش و پس از پاک‌سازی)<tspan class="ref"> [۵]</tspan></text>
+
+  <line x1="410" y1="240" x2="410" y2="260" stroke="#999" stroke-width="1.5"/>
+  <polygon points="404,258 416,258 410,268" fill="#999"/>
+
+  <!-- Layer 2 -->
+  <rect x="50" y="268" width="720" height="146" rx="10" fill="#fdf1e3" stroke="#e0922f" stroke-width="1.5"/>
+  <text class="hd" x="410" y="296" text-anchor="middle" fill="#b5681a">لایه ۲ ـ برچسب‌گذاری و واژگان</text>
+  <text class="ln" x="410" y="326" text-anchor="middle">برچسب انسانی (کاپای کوهن ≥ ۰٫۷۵)، برچسب‌گذاری دوردست، نمونه‌برداری فعال<tspan class="ref"> [۱]</tspan></text>
+  <text class="star" x="74" y="360">★</text>
+  <text class="ln" x="410" y="358" text-anchor="middle">برچسب‌گذاری بین‌زبانی: انتقال برچسب از پیکره‌های مالی انگلیسی به فارسی<tspan class="ref"> [۶]</tspan></text>
+  <text class="star" x="74" y="392">★</text>
+  <text class="ln" x="410" y="390" text-anchor="middle">واژه‌نامه جهت‌وابسته به‌روزشونده و نسخه‌بندی‌شده (افزودن مستمر اصطلاحات بازار)<tspan class="ref"> [۲]</tspan></text>
+
+  <line x1="410" y1="414" x2="410" y2="434" stroke="#999" stroke-width="1.5"/>
+  <polygon points="404,432 416,432 410,442" fill="#999"/>
+
+  <!-- Layer 3 -->
+  <rect x="50" y="442" width="720" height="178" rx="10" fill="#ebf6ee" stroke="#4fa46a" stroke-width="1.5"/>
+  <text class="hd" x="410" y="470" text-anchor="middle" fill="#2f7d4a">لایه ۳ ـ مدل‌سازی زبانی</text>
+  <text class="ln" x="410" y="500" text-anchor="middle">خطوط پایه و بنچ‌مارک مقایسه‌ای: واژگانی و SVM/لجستیک<tspan class="ref"> [۸، ۳، ۱۰]</tspan></text>
+  <text class="ln" x="410" y="532" text-anchor="middle">مدل اصلی: ریزتنظیم ParsBERT<tspan class="ref"> [۶]</tspan></text>
+  <text class="ln" x="410" y="564" text-anchor="middle">گزینه‌های کم‌منبع: QLoRA<tspan class="ref"> [۱]</tspan> ، چندعاملی ناهمگن<tspan class="ref"> [۹]</tspan> ، آموزش ترکیبی و توکن‌ساز<tspan class="ref"> [۷]</tspan></text>
+  <text class="ln" x="410" y="596" text-anchor="middle">ترکیب‌گر (Ensemble) و کالیبراسیون؛ پیش‌بینی نقاط عطف قیمتی با معیار AUC<tspan class="ref"> [۴]</tspan></text>
+
+  <line x1="410" y1="620" x2="410" y2="640" stroke="#999" stroke-width="1.5"/>
+  <polygon points="404,638 416,638 410,648" fill="#999"/>
+
+  <!-- Layer 4 -->
+  <rect x="50" y="648" width="720" height="152" rx="10" fill="#f1ecf9" stroke="#8b6bc4" stroke-width="1.5"/>
+  <text class="hd" x="410" y="676" text-anchor="middle" fill="#5b3f9e">لایه ۴ ـ شاخص‌سازی و تجمیع</text>
+  <text class="ln" x="410" y="706" text-anchor="middle">امتیاز احساس پیام، سپس تجمیع نماد/صنعت/بازار و مقیاس‌بندی ۰ تا ۱۰۰</text>
+  <text class="star" x="74" y="742">★</text>
+  <text class="ln" x="410" y="740" text-anchor="middle">وزن‌دهی پلتفرمی پویا بر مبنای کیفیت سیگنال هر منبع<tspan class="ref"> [۱، ۹]</tspan></text>
+  <text class="ln" x="410" y="772" text-anchor="middle">تفکیک گذشته‌نگر/آینده‌نگر، هموارسازی و تشخیص رژیم‌های ترس/طمع<tspan class="ref"> [۱، ۴]</tspan></text>
+
+  <line x1="410" y1="800" x2="410" y2="820" stroke="#999" stroke-width="1.5"/>
+  <polygon points="404,818 416,818 410,828" fill="#999"/>
+
+  <!-- Layer 5 -->
+  <rect x="50" y="828" width="720" height="150" rx="10" fill="#fbecec" stroke="#d05a5a" stroke-width="1.5"/>
+  <text class="hd" x="410" y="856" text-anchor="middle" fill="#a83232">لایه ۵ ـ اعتبارسنجی اقتصادی</text>
+  <text class="ln" x="410" y="886" text-anchor="middle">گرنجر-علیت، تحلیل رویداد، فاما-مکبث، پرتفوی Long–Short و آزمون برون‌نمونه<tspan class="ref"> [۱۱، ۴]</tspan></text>
+  <text class="star" x="74" y="930">★</text>
+  <text class="ln" x="410" y="922" text-anchor="middle">پیوند مستقیم احساس با انحراف قیمت از ارزش ذاتی<tspan class="ref"> [۳، ۱۱]</tspan></text>
+  <text class="ln" x="410" y="952" text-anchor="middle">(طمع: بیش‌ارزش‌گذاری و بازده آتی منفی ؛ ترس: کم‌ارزش‌گذاری و بازده آتی مثبت)</text>
+
+  <line x1="410" y1="978" x2="410" y2="998" stroke="#999" stroke-width="1.5"/>
+  <polygon points="404,996 416,996 410,1006" fill="#999"/>
+
+  <!-- Output -->
+  <rect x="50" y="1006" width="720" height="52" rx="10" fill="#f0f0f0" stroke="#999" stroke-width="1.5"/>
+  <text class="out" x="410" y="1037" text-anchor="middle">خروجی: شاخص روزانه ترس–طمع، داشبورد/API و پیکره و واژه‌نامه باز و بازتولیدپذیر</text>
+
+  <!-- Reference key
+  <rect x="50" y="1080" width="720" height="306" rx="10" fill="#fafafa" stroke="#ccc" stroke-width="1.2"/>
+  <text class="hd" x="410" y="1108" text-anchor="middle" fill="#333" font-size="14">کلید منابع (شماره‌گذاری مطابق فهرست منابع پروپوزال)</text>
+  <text class="key" x="78" y="1138">[۱]  Ballinari &amp; Maly (2025) — FX Sentiment Analysis with Large Language Models</text>
+  <text class="key" x="78" y="1162">[۲]  Du و همکاران (2024) — Financial Sentiment Analysis: Techniques and Applications</text>
+  <text class="key" x="78" y="1186">[۳]  Huang و همکاران (2023) — FinBERT</text>
+  <text class="key" x="78" y="1210">[۴]  Gurgul و همکاران (2025) — Deep Learning and NLP in Cryptocurrency Forecasting</text>
+  <text class="key" x="78" y="1234">[۵]  Pencheva (2025) — Profiling Noisy Social Media Data for Sentiment Applications</text>
+  <text class="key" x="78" y="1258">[۶]  Farahani و همکاران (2021) — ParsBERT</text>
+  <text class="key" x="78" y="1282">[۷]  Wu و همکاران (2023) — BloombergGPT</text>
+  <text class="key" x="78" y="1306">[۸]  Sohangir و همکاران (2018) — Deep Learning for Financial Sentiment Analysis</text>
+  <text class="key" x="78" y="1330">[۹]  Xing (2025) — Designing Heterogeneous LLM Agents for Financial Sentiment Analysis</text>
+  <text class="key" x="78" y="1354">[۱۰] Seshakagari و همکاران (2025) — Dynamic Financial Sentiment Analysis &amp; Market Forecasting</text>
+  <text class="key" x="78" y="1378">[۱۱] Liu و همکاران (2024) — LLMs and Sentiment Analysis in Financial Markets</text> -->
+</svg>
